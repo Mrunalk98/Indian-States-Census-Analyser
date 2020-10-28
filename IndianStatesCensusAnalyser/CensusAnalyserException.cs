@@ -13,9 +13,9 @@ namespace IndianStatesCensusAnalyser
 
         public ExceptionType eType;
 
-        public CensusAnalyserException(string message, ExceptionType eType) : base (message)
+        public CensusAnalyserException(string message, ExceptionType exceptionType) : base (message)
         {
-            this.eType = eType;
+            this.eType = exceptionType;
         }
 
     }
